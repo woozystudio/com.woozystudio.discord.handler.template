@@ -1,0 +1,21 @@
+{
+  "name": "com.woozystudio.discord.handler.template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "url": "https://github.com/woozystudios/com.woozystudio.discord.handler.template.git"
+  },
+  "author": "WoozyStudio <woozystudiocontact@gmail.com>",
+  "           license": "UNLICENSED",
+  "homepage": "https://github.com/woozystudios/com.woozystudio.discord.handler.template#readme",
+  "description": "",
+  "dependencies": {
+    "colors": "1.4.0",
+    "discord.js": "14.16.3"
+  },
+  "devDependencies": {
+    "discord-api-types": "0.37.104",
+    "typescript": "5.6.3"
+  }
+}
