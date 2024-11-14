@@ -2,7 +2,13 @@
   "name": "com.woozystudio.discord.handler.template",
   "version": "0.1.0",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "clean": "del /s /q build",
+    "build": "tsc --build",
+    "start": "npm run clean && npm run build && node dist/index.js",
+    "start:noClean": "npm run build && node dist/index.js",
+    "lint": "oxlint"
+  },
   "repository": {
     "url": "https://github.com/woozystudios/com.woozystudio.discord.handler.template.git"
   },
@@ -16,6 +22,7 @@
   },
   "devDependencies": {
     "discord-api-types": "0.37.104",
+    "oxlint": "0.11.1",
     "typescript": "5.6.3"
   }
 }
